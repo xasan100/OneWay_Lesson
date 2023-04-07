@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#box {
+    background: red;
+    height: 100vh;
+    font-size: 12px;
+
+}
+
+p {
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.style1 {
+    color: yellow;
+    font-weight: 400;
+}
+
+.style2 {
+    color: blue;
+    font-weight: 100;
+}
+
+.style3 {
+    color: gray;
+    font-weight: 900;
+}
+
+.style4 {
+    color: hotpink;
+    font-weight: 500;
+}
