@@ -3,36 +3,44 @@
     margin: 0px;
 }
 
-
-#box {
-    background: red;
-    height: 100vh;
-    font-size: 12px;
-
+body {
+    background-image: url(./making-a-budget-tracking-finances.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-p {
-    font-size: 5rem;
-    font-weight: 100;
-    font-family: 'Courier New', Courier, monospace;
+.navbarBox {
+    background: black;
+    height: 100px;
+    padding-top: 50px;
 }
 
-.style1 {
-    color: yellow;
-    font-weight: 400;
+.nav-logo {
+    display: inline;
+    color: white;
+    font-weight: 800;
+    margin-left: 100px;
 }
 
-.style2 {
-    color: blue;
-    font-weight: 100;
+.nav-item {
+    margin-left: 300px;
 }
 
-.style3 {
-    color: gray;
-    font-weight: 900;
+
+a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
 }
 
-.style4 {
-    color: hotpink;
-    font-weight: 500;
+.btn {
+    background: #42d1f5;
+    height: 25px;
+    color: white;
+    width: 90px;
+   border: none;
+   border-radius: 100px;
+   margin-left: 300px;
+
 }
