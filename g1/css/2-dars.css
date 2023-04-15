@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column-reverse; */
+    justify-content: end;
+
+   
+}
+
+.navbar>div{
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px;
+}
+.box1 {
+    background: red;
+    /* order: 3; */
+    /* flex: 1; */
+    /* flex-basis: 200px; */
+}
+.box2{
+    background: blue;
+    /* order: 1; */
+    /* flex: 4; */
+}
+.box3 {
+    background: yellowgreen;
+    /* order: 2; */
+    /* flex: 1; */
+    /* flex-basis: 200px; */
+}
