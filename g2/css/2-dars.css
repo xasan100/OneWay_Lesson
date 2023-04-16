@@ -1,13 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
 
+.logo_nav1{
+    display: inline;
+    color: white;
+    margin-left: 50px;
+}
+.navbar1{
+    height: 100px;
+    background: black;
+    padding-top: 20px;
+}
+.nav-item1{
+    margin-left: 400px;
+}
+.nav-item1>a {
+    text-decoration: none;
+    color: white;
+    margin:0px 10px ;
+}
 
-   
+.nav1_btn{
+    margin-left: 400px;
+}
 
-
-
-
-
-
+.box{
+    width: 300px;
+    height: 300px;
+    background: red;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     
-    
+}
 
 
+
+
+
+.nav1_btn {
+    background: rgb(65, 234, 234);
+    color: white;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 100px;
+}
