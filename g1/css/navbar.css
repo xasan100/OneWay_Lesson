@@ -1,0 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.section1 {
+    background: black;
+    height: 120px;
+
+}
+
+.nav-logo>h1 {
+    color: white;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item>a {
+    text-decoration: none;
+    color: white;
+    /* margin: 0px 30px 0px 30px; */
+    margin: 0px 30px;
+}
+
+.btn>button{
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(14, 195, 195, 0.884);
+    color: white;
+    cursor: pointer;
+}

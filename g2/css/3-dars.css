@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.navbar1 {
+    background: black;
+    padding-top: 20px;
+    color: white;
+    height: 100px;
+}
+
+.logo_nav1 {
+    display: inline;
+    font-size: 12px;
+}
+
+.nav-item1 {
+}
+
+
+
+.nav-item1>a {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+.nav1_btn>button {
+    background: darkturquoise;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 35px;
+    border-radius: 100px;
+    display: inline;
+    font-size: 12px;
+}
+
+.nav1_btn {
+   
+}
+
+
