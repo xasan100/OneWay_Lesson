@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Container {
+    padding: 0px 100px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.nav-item>a {
+    text-decoration: none;
+    margin: 0px 25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+}
+
+.nav-btn>button {
+    width: 210px;
+    height: 60px;
+    border: none;
+    background: #FF7143;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* section 2  css*/
+.section2 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.section2-box1 {
+    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.section2-box1>p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+}
+
+.section2-btn {
+    display: flex;
+    gap: 0px 40px;
+}
+
+.btn1 {
+    background: #5454D4;
+    border-radius: 10px;
+    width: 211px;
+    height: 60px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.section2-box2 {
+    flex-grow: 5;
+}
+
+.section2-bigText {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+}
+
+/* section3 */
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+/* section 4 */
+
+.section4 {
+    display: flex;
+}
+
+.section4>div {
+    flex-grow: 5;
+}
+
+.section4-box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.section4-img {
+    width: 700px;
+}
+
+.section4-textBig {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+}
+
+.section4-p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    width: 70%;
+}
+
+.section4-a {
+    text-decoration: none;
+}
+
+/* section 5 */
+
+.section5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section5-p {
+    width: 70%;
+}
+
+.section5-img {
+    display: flex;
+    justify-content: end;
+}
+
+/* section 6 */
+
+.section6 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50PX;
+}
+
+.section6-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section6-box1>img {
+    text-align: center;
+}
+
+.section6-box1>h3 {
+    width: 70%;
+    text-align: center;
+}
+
+.section6-box1>p {
+    width: 70%;
+    text-align: center;
+}
+
+/* section 7 */
+.section7 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+.card1-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.card1-box>button {
+    background: white;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    width: 280px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+.card1 {
+    width: 330px;
+    height: 440px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.card2 {
+    width: 330px;
+    height: 440px;
+    background: #FF7143;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card3 {
+    width: 330px;
+    height: 440px;
+    background: #F8F8F8;
+    border-radius: 10px;
+
+}
