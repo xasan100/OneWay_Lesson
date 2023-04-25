@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.conteiner {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    background: rgba(23, 87, 198, 0.886);
+    width: 800px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.box1>a {
+    font-size: 23px;
+    color: white;
+}
+
+.box2 {
+    width: 800px;
+    height: 60px;
+    border-radius: 10px;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box2>a {
+    font-size: 25px;
+    color: white;
+}
+.box3{
+    display: flex;
+    justify-content: end;
+    width: 800px;
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.659);
+    border-radius: 10px;
+    align-items: center;
+}
+.box3>a{
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.box4{
+    width: 800px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.652);
+    justify-content: space-between;
+    
+}
+.box4>a{
+    font-size: 25px;
+    color: white;
+}                      
+.box5{
+width: 800px;
+height: 60px;
+display: flex;
+align-items: center;
+background-color: blue;
+justify-content: space-between;
+border-radius: 10px;
+
+}
+
+.box5>a{
+font-size: 25px;
+color:white
+
+}
+
+
+

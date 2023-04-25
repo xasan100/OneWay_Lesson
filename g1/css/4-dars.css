@@ -17,6 +17,7 @@
     /* flex-direction: column-reverse; */
     /* align-items: center; */
     /* flex-direction: column; */
+    /* flex-wrap: wrap; */
 }
 
 .box-1 {
@@ -28,8 +29,10 @@
     /* flex-grow: 1; */
     /* flex-basis: 200px; */
     /* align-self: stretch; */
-    height: 200px;
-    
+    /* flex: 1; */
+    /* flex-grow: 1; */
+    align-self: stretch;
+    flex-basis: 100px;
 }
 
 .box-2 {
@@ -42,22 +45,25 @@
     /* flex-shrink: 0; */
     /* flex: 1  400px; */
     /* align-self: center; */
-    height: 200px;
     /* flex-shrink: 0; */
     /* flex-basis: 500px; */
     width: 300px;
+    flex: 3;
+    align-self: stretch;
+    
 }
 
 .box-3 {
         /* width: 300px; */
     background: rgb(0, 76, 255);
-    border: 5px solid black;
     /* order: 1; */
     /* flex-grow: 1; */
     /* flex-basis: 200px; */
     /* align-self: stretch; */
-    height: 200px;
+    width: 300px;
     /* flex: 5 ; */
+    flex: 1;
+    align-self: stretch;
 
 
 }
