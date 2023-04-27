@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.box1 {
+    width: 250px;
+    height: 190px;
+    background: rgb(52, 52, 187);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box2 {
+    width: 250px;
+    height: 190px;
+    background: rgb(52, 52, 187);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.box3 {
+    width: 250px;
+    height: 190px;
+    background: rgb(52, 52, 187);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.box4 {
+    width: 250px;
+    height: 190px;
+    background: rgb(52, 52, 187);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.boxx {
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+
+
+}
+
+
+.box5 {
+    width: 250px;
+    height: 190px;
+    background: rgb(52, 52, 187);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box6 {
+    width: 250px;
+    height: 190px;
+    background: rgb(52, 52, 187);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.box7 {
+    width: 250px;
+    height: 190px;
+    background: rgb(52, 52, 187);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.box8 {
+    width: 250px;
+    height: 190px;
+    background: rgb(52, 52, 187);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
