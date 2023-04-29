@@ -1,63 +1,79 @@
 * {
-    padding: 0%;
+    padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-.wrapper {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
-.continer {
-    padding: 40px 60px;
-    display: grid;
-    height: 100vh;
-    gap: 10px;
-    grid-template-columns: 1fr 6fr;
-    grid-template-areas:
-        'l l l'
-        's m m'
-        's f f';
-
+h1 {
+    font-size: 90px;
 }
 
-
-.logo {
+.content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background: rgb(230, 226, 180);
-    grid-area: l;
-
+    position: relative;
+    width: 300px;
+    height: 100px;
 }
 
-
-
-.sidebar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background: rgb(230, 226, 180);
-    grid-area: s;
+.C {
+    position: absolute;
+    left: 0;
+    color: rgba(0, 0, 255, 0.782);
+    opacity: 0.6;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background: rgb(230, 226, 180);
-    grid-area: m;
+.h1O {
+    position: absolute;
+    left: 30px;
+    color: green;
+    opacity: 0.6;
 }
 
+.L {
+    position: absolute;
+    left: 87px;
+    color: rgb(38, 77, 58);
+    opacity: 0.6;
+}
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background: rgb(230, 226, 180);
-    grid-area: f;
+.O {
+    position: absolute;
+    left: 125px;
+    color: red;
+    opacity: 0.6;
+}
+
+.R {
+    position: absolute;
+    left: 165px;
+    color: palevioletred;
+    opacity: 0.6;
+}
+
+.F {
+    position: absolute;
+    left: 220px;
+    color: rgb(21, 0, 255);
+    opacity: 0.6;
+}
+
+.U {
+    position: absolute;
+    left: 250px;
+    color: rgb(0, 149, 255);
+    opacity: 0.6;
+}
+
+.H1L {
+    position: absolute;
+    left: 290px;
+    color: rgb(0, 255, 0);
+    opacity: 0.6;
 }

@@ -6,13 +6,13 @@
 .container{
 background: palegoldenrod;
 display: grid;
-/* grid-template-columns: auto auto  auto;
+grid-template-columns: auto auto  auto;
 grid-template-columns: 10fr 10fr 1fr 1fr;
 grid-template-columns: repeat(4,1fr);
-grid-template-rows: 100px 200px; */
+/* grid-template-rows: 100px 200px; */
 /* grid-template-columns: 1fr 8fr; */
 /* grid-template-rows: 1fr 8fr; */
-gap: 10px 10px ;
+/* gap: 10px 10px ; */
 grid-template-areas: 
  "h h h  "
  "m c c  "
@@ -25,6 +25,9 @@ grid-template-areas:
    /* grid-column-start: 1;
    grid-column-end: 3; */
    /* grid-column: 1/-1; */
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  /* grid-column: 1/-1; */
 }
 .main {
     background: rgb(26, 255, 0);
