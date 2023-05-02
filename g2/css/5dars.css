@@ -2,78 +2,87 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    background: rgb(39, 62, 102);
+}
+
+.conatiner {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    border: 1px solid red;
     height: 100vh;
 }
 
-h1 {
-    font-size: 90px;
-}
-
-.content {
+.navbar {
+    width: 100%;
+    height: 80px;
+    border: 1px solid red;
+    background: rgba(68, 76, 133, 0.735);
     display: flex;
-    position: relative;
-    width: 300px;
-    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+
 }
 
-.C {
-    position: absolute;
-    left: 0;
-    color: rgba(0, 0, 255, 0.782);
-    opacity: 0.6;
+.nav-item {
+    display: flex;
+    gap: 40px;
 }
 
-.h1O {
-    position: absolute;
-    left: 30px;
-    color: green;
-    opacity: 0.6;
+.nav-item>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.L {
-    position: absolute;
-    left: 87px;
-    color: rgb(38, 77, 58);
-    opacity: 0.6;
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo>img{
+    border-radius: 50%;
+}
+.nav-logo>p{
+    color: white;
+}
+.nav-logo>i{
+    color: white;
+    cursor: pointer;
 }
 
-.O {
-    position: absolute;
-    left: 125px;
-    color: red;
-    opacity: 0.6;
+.item-set>i {
+    color: rgba(150, 149, 149, 0.602);
+    cursor: pointer;
 }
 
-.R {
-    position: absolute;
-    left: 165px;
-    color: palevioletred;
-    opacity: 0.6;
+.item-set>p {
+    color: white;
+    cursor: pointer;
 }
 
-.F {
+.item-message{
+    width: 20px;
+    height: 20px;
+    background: red; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
     position: absolute;
-    left: 220px;
-    color: rgb(21, 0, 255);
-    opacity: 0.6;
-}
+     top: 65px;
+     left: 390px;
 
-.U {
-    position: absolute;
-    left: 250px;
-    color: rgb(0, 149, 255);
-    opacity: 0.6;
 }
-
-.H1L {
-    position: absolute;
-    left: 290px;
-    color: rgb(0, 255, 0);
-    opacity: 0.6;
+.item-message>p{
+    color: white;
+    
 }

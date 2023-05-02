@@ -1,0 +1,60 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+        "h h h "
+        "m c r "
+        " m f f";
+    gap: 10px;
+    height: 70vh;
+    background: palegreen;
+}
+
+.container>div {
+    background: red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    grid-area: h;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    grid-area: m;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contet {
+    grid-area: c;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rith {
+    grid-area: r;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    grid-area: f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

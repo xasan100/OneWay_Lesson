@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.container {
+    background-image: linear-gradient(45deg,
+            hsl(55deg 100% 50%) 0%,
+            rgb(217, 0, 255) 50%);
+      height: 100vh;
+}
