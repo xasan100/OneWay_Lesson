@@ -1,6 +1,8 @@
-// console.log(one);
-// var one = '1'
-// console.log(one);
+
+
+
+
+
 
 // 1 string 2 number 3 boolean 4 undefined 5 null 6 arrey [{}]  7sybool
 
@@ -47,8 +49,60 @@
 // })
 // console.log(b);
 
+// function findOddNumbers(numbers) {
+//     a = numbers.filter(number => number % 2 == 0);
+//     b = numbers.filter((number) => number % 2 !== 0)
+//     return `juft ${a} toq ${b} `
+// }
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const oddNumbers = findOddNumbers(numbers);
+// console.log(oddNumbers); // [1, 3, 5, 7, 9]
+
+// let one = 'Asadbek'
+// b = one.split('').reverse().join('')
+// console.log(b);
+
+
+// {
+//     var one = '1'
+//     let b = '12'
+//     console.log(b);
+// }
+// console.log(b);
+
+// var n = 23456
+
+// {
+//     // let n = '123456'
+//     let n = 'asadbek'
+// }
+// console.log(n);
 
 
 
+// b = a.filter((value, index, arrey) => {
+//     return value >= 3
+// })
+// console.log(b);
 
+
+// console.log(a.flat(2));
+
+// const a = [1,2,3,4,5,6,100,1001]
+
+// b = a.reduce((a, b) => a+b ,0)
+
+// b = a.sort((a,b)=> b-a)
+// console.log(`max ${b[0]} min ${ b.slice(-1)}`);
+
+// const b = [22134, 123, 234567, 23456]
+
+// console.log(...b);
+
+const b = ['olma', 'nok', 'behi']
+const [n, o] = b
+
+console.log(n, '--nok');
+console.log(o, '--olma');
 
