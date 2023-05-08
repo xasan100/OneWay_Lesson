@@ -100,9 +100,9 @@
 
 // console.log(...b);
 
-const b = ['olma', 'nok', 'behi']
-const [n, o] = b
+// const b = ['olma', 'nok', 'behi']
+// const [n, o] = b
 
-console.log(n, '--nok');
-console.log(o, '--olma');
+// console.log(n, '--nok');
+// console.log(o, '--olma');
 

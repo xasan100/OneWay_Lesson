@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.continer {
+    height: 100vh;
+    background: greenyellow;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 136, 0);
+    font-size: 30px;
+    position: relative;
+}
+
+a::after {
+    content: '';
+    width: 120%;
+    height: 5px;
+    background: white;
+    position: absolute;
+    bottom: -5px;
+    left: -7.5px;
+    transform: scale(0);
+    border-radius: 10px;
+    transform-origin: right;
+    transition: transform 0.7s ease-out;
+}
+
+a:hover::after {
+    transform: scale(1);
+    transform-origin: left;
+}
