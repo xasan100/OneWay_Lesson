@@ -46,10 +46,47 @@ a::after {
     border-radius: 10px;
     transform: scale(0);
     transition: transform 1s ease-out;
-    transform-origin:  right;
+    transform-origin: right;
 }
 
 a:hover::after {
     transform: scale(1);
-    transform-origin:  left;
+    transform-origin: left;
+}
+
+.box {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 40px;
+    color: yellow;
+}
+
+p::before {
+    content: '-';
+    transform: scale(0);
+    display: none;
+    cursor: pointer;
+    transition: transform 1s ease-in;
+}
+
+p:hover::before {
+    transform: scale(1);
+    display: inline;
+    margin-left: 20px;
+    color: rebeccapurple;
+}
+
+p:hover {
+    color: rebeccapurple;
+}
+
+::selection{
+    /* background: yellow;
+    color: rgb(22, 22, 22); */
 }

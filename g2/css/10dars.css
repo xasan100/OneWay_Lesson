@@ -1,0 +1,139 @@
+/* .container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation: example 5s linear alternate 4;
+    animation-direction: alternate;
+    animation-delay: 2s;
+} */
+
+/* @keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+        background: red;
+    }
+    25% {
+        left: 90%;
+        top: 0px;
+        background: yellow;
+        border-radius: 20%;
+    }
+    50% {
+        background: rebeccapurple;
+        left: 90%;
+        top: 400px;
+        border-radius: 40%;
+    }
+    75% {
+        left: 0px;
+        top: 400px;
+        background: palegreen;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        background: gold;
+    }
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background: #045499;
+    gap: 20px;
+
+}
+
+.box1 {
+    flex: 5;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding: 30px 50px; */
+    background-image: linear-gradient(to right top, rgb(0, 187, 255), rgba(187, 0, 255, 0.342));
+}
+
+.box1>img {
+    width: 100%;
+    opacity: 0.3;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+/* box2 */
+.box2 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.box2>h1 {
+    font-family: 'Al Nile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 79px;
+    line-height: 108px;
+    color: white;
+}
+
+.box2-text1>p {
+    font-family: 'Al Nile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .wrapper {
+        padding: 20px 20px;
+    }
+
+    .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+
+    }
+
+    .box2>h1 {
+        font-size: 32px;
+    }
+
+    .box2-text1>p {
+        line-height: 18px;
+        font-size: 12px;
+        text-align: center;
+        color: white;
+    }
+
+}
