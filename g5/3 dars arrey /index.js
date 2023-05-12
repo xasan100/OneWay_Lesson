@@ -1,5 +1,4 @@
 
-const one = [1, 2, 3, 4, 5, 6]
 
 // for (let i = 0; i < one.length; i++) {
 //     console.log(one[i]);
@@ -9,12 +8,7 @@ const one = [1, 2, 3, 4, 5, 6]
 // for (const value in one) {
 //     console.log(value);
 // }
-// for (value of one) {
-//     console.log(value);
-// }
-// for (index in one) {
-//     // console.log(index);
-// }
+
 
 // var yourArr = [1, 2, 3]
 // [b, a] = yourArr
@@ -53,31 +47,35 @@ const one = [1, 2, 3, 4, 5, 6]
 // ]
 // b = obj.map((value) => value.age)
 
+// const one = [1, 2, 3, 4, 5, 6]
+
+
+// for (value of one) {
+//     console.log(value,);
+// }
+// for (index in one) {
+//     console.log(index);
+// }
+
 // function name(str) {
 //     return str.match(/[0-9]/g).join('')
 // }
 // console.log(name('She 3a24Walks345 Tao The345 Beach'));
 
-// console.log(b,'b');
 
-const a = [1, 2, 0, 1, 34, 12, 1]
+// const a = [1, 2, 0, 1, 34, 12, 1]
 // b = a.reduce((a, b) => a + b, 0)
-// b = a.sort((a,b) => b-a)
+// console.log(b, 'arximetikka amallar bajarish uchun');
 
-const arr = [
-    {
-        name: 'xasan',
-        id: 1,
-        status: 'students',
-        hobbe: 'sayir'
-    },
+// b = a.sort((a, b) => b - a)
+// console.log(b, 'malumotlarni sortlab beradi');
 
-    {
-        name: 'aziz',
-        id: 2,
-        status: 'devoloper',
-        hobbe: 'sayir'
-    }
-]
 
-console.log(this, 'this');
+
+// do`konda kitobga narx berilgan 3.0000 so`m 
+//fuction parametrga nechi berilasa kitobgan berilgan so`mani 
+// k`opaytirib beradigan fuction yozing
+
+const Book = (one) => {
+}
+console.log(Book(2));
