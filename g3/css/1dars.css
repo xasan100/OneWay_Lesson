@@ -2,17 +2,16 @@
     background: red;
     color: yellow;
 } */
-.too{
-    background: palegreen;
+
+/* div{
+    font-size: 30px;
+} */
+
+p {
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-style: normal;
     color: aqua;
+    background: rgb(249, 1, 1, 0.4);
 }
-
-.one{
-    font-size: 60px;
-}
-
-#box{
-    background: navajowhite;
-    color: blueviolet;
-}
-

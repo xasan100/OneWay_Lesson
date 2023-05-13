@@ -37,6 +37,55 @@ let one = 'hello'
 //     (accumulator, currentValue) => accumulator + currentValue, 0);
 
 
+// data type 2 turga  bo`linadi 
+
+// primativ  1 string 2number 3boolen 4undifaind 5null 6sybool
+
+// non primativ arrey 
+
+// const str = 1
+// const num = '1'
+
+const arr1 = [1]
+const arr2 = [1]
+// console.log(arr1 === arr2);
+
+// javob false 
+
+
+// map callbac fuction ()=> callback fuction value,index array, map yangi arreyga qaytaradi 
+
+// filter callbac fuction ()=> callback fuction value,index array, filter shartimiz qanoatlantirsa ishlaydi true bo`lsa 
+
+// sort ((a,b)=> a-b) malumotlarni tartiblab beradi arrey
+
+const arr = [1, 2, 1, 3, 3, [2], [2, [2, [2, [1]]]]]
+// b = arr.sort((a, b) => a - b)
+
+
+// b = arr.filter((value,index,arry) => {
+//     return value >=3
+// })
+
+// b = arr.flat(Infinity).reduce((a, b) => a + b, 0)
+b = arr.flat(Infinity).slice(-1)
+
+// console.log(b);
+
+
+
+
+const test = [
+ 
+
+    , {
+        name: 'aziz',
+        id: 2,
+        status: 'student',
+    }
+]
+
+console.log(obj.map((value) => value?.status));
 
 
 

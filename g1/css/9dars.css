@@ -103,7 +103,7 @@
     }
 } */
 
-/* .container {
+.container {
     display: grid;
     grid-template-columns: 5fr 5fr;
 
@@ -133,4 +133,4 @@
         width: 300px;
         height: 300px;
     }
-} */
+}
