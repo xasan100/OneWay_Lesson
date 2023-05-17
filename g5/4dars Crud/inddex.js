@@ -42,14 +42,31 @@ const addFunc = (user) => {
 addFunc({ year: 1998, name: 'Zohidov Roziya' })
 
 
-const updateUser = (data) => {
-    up = students.map((value) => value.id === data.id ? { ...value, [data.type]: data?.value } : value)
-    // console.log(up);
+// const updateUser = (data) => {
+//     up = students.map((value) => value.id === data.id ? { ...value, [data.type]: data?.value } : value)
+//     // console.log(up);
 
-}
-updateUser({ id: 8, type: 'name', value: 'Xusan' })
+// }
+
 const SearchName = (key) => {
     search = students.filter((value) => value.name.toLowerCase().includes(key.toLowerCase()))
-    console.log(search);
+    // console.log(search);
 }
 SearchName('z')
+
+
+// const updateUser = (data) => {
+//     up = students.map((value) => value.id === data.id ? { ...value, [data.type]: data?.value } : value)
+//     // console.log(up);
+// }
+// updateUser({ id: 8, type: 'name', value: 'Xusan' })
+
+const Update = (data) => {
+    // let res = students.map((value) => value.id == data.id ? { ...value, [data.type]: data.value } : value)
+
+    let res = students.map((value) => value.id == data.id ? { ...value, [data.type]: data.value } : value)
+    console.log(res);
+
+}
+
+Update({ id: 8, type: 'name', value: 'xursad' })

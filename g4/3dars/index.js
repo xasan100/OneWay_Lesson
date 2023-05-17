@@ -1,8 +1,17 @@
+const ar = ['olma', 'nok', 'behi', 'anor', 'olma']
+
+const Deltefunck = (name) => {
+    let res = ar.filter((value) => value !== name)
+    // console.log(res);
+}
+Deltefunck('olma')
+
+
 const students = [
     { id: 1, year: 1999, name: 'Rakhimjonov Davronbek' },
     { id: 2, year: 2007, name: 'Komil Muhammadiyev' },
     { id: 3, year: 2003, name: 'Mahkamov Tohirbek' },
-    { id: 4, year: 2004, name: 'Nuraliev Zuhriddin' },
+    { id: 4, year: 2004, name: 'Nuraliev Zuhriddi' },
     { id: 5, year: 2001, name: 'Dilshodbek Boymamatov' },
     { id: 6, year: 2002, name: 'Muhharam Ozodboyeva' },
     { id: 7, year: 2001, name: 'Azimov Umarbek' },
@@ -13,36 +22,23 @@ const students = [
     { id: 12, year: 2005, name: 'Nizamov Sardorbek' },
 ];
 
-
-const write = (key) => {
-    // let res = students.filter((value) => value.name.toLowerCase().includes(key.toLowerCase()))
-    let b = students.filter((value) => value.id === key)
-    // console.log(b);
+// search funck
+const serchFunc = (key) => {
+    let res = students.filter((value) => value.name.toLowerCase().includes(key.toLowerCase()))
+    //  console.log(res,'res');
 }
-write(3)
+serchFunc('n')
 
-const delteFunc = (id) => {
+// delete funck
+const DeleteFunc = (id) => {
     let res = students.filter((value) => value.id !== id)
     // console.log(res);
 }
-delteFunc(3)
+DeleteFunc(10)
 
-
+// add user funck
 const addUser = (user) => {
     let res = [...students, { id: students.length + 1, ...user }]
-    // console.log(res);
-}
-addUser({ year: 2010, name: 'alisher' })
-
-const sortName = () => {
-    let res = students.sort((a, b) => a.name.localeCompare(b.name))
     console.log(res);
 }
-sortName()
-
-const Update = (data) => {
-    let res = students.map((value) => value.id == data.id ? { ...value, [data.type]: data.value } : value)
-    console.log(res);
-}
-
-Update({ id: 3, type: 'year', value: 1777 })
+addUser({ year: 1996, name: 'Abdullayev xursad' })

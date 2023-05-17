@@ -85,7 +85,7 @@ const test = [
     }
 ]
 
-console.log(obj.map((value) => value?.status));
+// console.log(obj.map((value) => value?.status));
 
 
 
