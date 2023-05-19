@@ -1,18 +1,23 @@
-function getFirstValue(arr) {
-    return arr[0]
-}
-// console.log(getFirstValue([99, 100, 20]));
-
-function makePair(num1,num2) {
-
-}
-
-// console.log(makePair(213456, 2));
+const b = 123456
+const a = 1234567
 
 
 
-// const makePair = (a, b) => [a, b];
 
-function parseArray(arr) {
-    return arr.join('').split('')
-}
+// console.log(a !== b);
+
+// var ballA = 100
+// var ballB = 77
+// var ballC = 59
+// var ballD = 10
+
+// resA = ballA > 100 && 'not' || ballA >= 86 && 'A'
+// resB = ballB > 85 && 'not' || ballB >= 61 && 'B'
+// resC = ballC > 60 && 'not' || ballC >= 50 && 'C'
+// resD = ballD > 50 && 'not' || ballD >= 0 && 'Faild'
+
+
+// console.log(`${resA}  ${resB} ${resC} ${resD}`);
+
+
+console.log(`${true + false}${false + false}${false + false}`);
