@@ -1,37 +1,30 @@
-const obj = {}
-obj.name = 'xasan'
+
+// if (one < 25) {
+//     console.log('iliq havo');
+// }
+// else if (one < 50) {
+//     console.log('judda ham issiq');
+// }
+
+// else if (one < 70) {
+//     console.log('tuxum pishirsa bo`ladi ');
+// }
+// else {
+//     console.log('malumot topilmadi');
+// }
+
+var res = {}
+var one = new Map([['name', 'Abdulaziz']])
+
+one.set(234, 'Baxtiyor')
+one.set(true, 'Baxtiyor')
+
+
+// one.title = 'xusan'
+res.name = 'xasan'
+
+console.log(res);
+console.log(one.entries(), 'bu Map');
 
 
 
-const map = new Map()
-map.set('title', 'xasan')
-map.set('name', 'xusan')
-
-var res = Object.fromEntries(map);
-
-
-// map.forEach((value) => {
-//     console.log(value)
-// })
-// console.log(Object.fromEntries(map).title, 'map');
-
-// let gen = map.entries()
-// gen.next()
-// console.log(gen.next());
-
-
-
-// console.log(obj, 'obj');
-// console.log(map.delete('aziz'), 'map');
-// console.log(map.clear(), 'map');
-// console.log(map, 'map');
-
-
-
-
-
-
-
-
-
-// console.log(diyora.has(),'s');
