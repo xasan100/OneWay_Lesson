@@ -1,11 +1,23 @@
-*{
-   padding: 0px;
-   margin: 0px;
-   box-sizing: border-box;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conatiner {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background-image:
+        linear-gradient(1.58deg, #045499 3.32%, rgba(226, 5, 5, 0.893) 98.72%);
 }
 
 .box1 {
-    height: 100vh;
+    height: 110vh;
+    min-height: 800px;
     background-repeat: no-repeat;
     background-image:
         linear-gradient(1.58deg, #045499 3.32%, rgba(226, 5, 5, 0.893) 98.72%),
@@ -15,9 +27,10 @@
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 20vh;
     align-items: center;
+    padding: 0px 120px;
 }
 
 .nav-logo>h1 {
@@ -84,4 +97,190 @@ a:hover::after {
     color: white;
     cursor: pointer;
 
+}
+
+/* contet navbar in */
+
+.contet-box1 {
+    display: grid;
+    grid-template-columns: 7.5fr 2.5fr;
+    height: 70vh;
+    padding: 0px 120px;
+    gap: 40px;
+}
+
+.news-img-Box1 {
+    background-image: url("../assest/img/newsImgCenter.png");
+}
+
+.news-title-Box1 {
+    height: 70vh;
+}
+
+.wrapper-Img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.btn-left {
+    text-align: end;
+
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+.btn-left>button {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7.5px);
+    width: 120px;
+    height: 66px;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.img-texBac {
+    height: 140px;
+    background: linear-gradient(0deg, #045499 0.82%, rgba(41, 122, 192, 0) 123.79%);
+    backdrop-filter: blur(7.5px);
+    padding: 25px;
+}
+
+.img-texBac>p {
+    font-family: 'Al Nile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.news-title-Box1 {
+    background: rgba(13, 78, 149, 1);
+}
+
+.news-left-title1 {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-left-title1>h2 {
+    font-family: 'Al Nile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.box-time-news {
+    padding: 0px 20px;
+}
+
+.con-time-news {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.time-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time-icon>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.time-text>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.btn-time>button {
+    width: 289px;
+    height: 53px;
+    background: #295f9a6f;
+    border: none;
+    color: white;
+}
+
+/* main  */
+.main-news {
+    height: 100vh;
+    background: #045499;
+    padding: 0px 120px;
+
+}
+
+.main-news>h2 {
+    font-family: 'Al Nile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.main-contet {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.main-contet>div {
+    height: 320px;
+}
+
+.news-imgBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 0px 60px 0px;
+    gap: 10px;
+}
+
+.news-gallery {
+    height: 193px;
+
+
+
+}
+
+.gallery-img1 {
+    background-image: url(../assest/img/newsGallery.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 289px;
+    text-align: end;
+
+}
+
+.gallery-img1>button {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7.5px);
+    width: 120px;
+    height: 66px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.gallery-time {
+    padding: 0px;
 }
