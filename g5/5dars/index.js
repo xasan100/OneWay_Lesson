@@ -5,9 +5,10 @@ obj.name = 'xasan'
 
 const map = new Map()
 map.set('title', 'xasan')
-map.set('title', 'xusan')
-map.set('title', 'fotima')
-map.set('title', 'zuhra')
+map.set('name', 'xusan')
+
+var res = Object.fromEntries(map);
+
 
 // map.forEach((value) => {
 //     console.log(value)
@@ -29,10 +30,8 @@ map.set('title', 'zuhra')
 
 
 
-const diyora = new Set()
-diyora.add('xasan')
-diyora.add('df')
 
 
 
-console.log(diyora.has(),'s');
+
+// console.log(diyora.has(),'s');
