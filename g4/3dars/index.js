@@ -1,27 +1,25 @@
 // console.log(`${true+false}${false+false}${false+false}`);
+// var one =  1 ? console.log('judda ham issiq') : console.log('malumot topilmadi') ? console.log('hey guys') : console.log('topilmaddi');
 
 
-// var one = 1 ? console.log('judda ham issiq') : console.log('malumot topilmadi') ? console.log('hey guys') : console.log('topilmaddi');
-// if (one < 25) {
+// var one = 26
+// if ({} == {}) {
 //     console.log('iliq havo');
-// }
-// else if (one < 50) {
-//     console.log('judda ham issiq');
-// }
-
-// else if (one < 60) {
-//     console.log('tuxum pishirsa bo`ladi ');
 // }
 // else {
 //     console.log('malumot topilmadi');
 // }
 
+// console.log(typeof typeof res);
 
 
-let res = 7
+
+
+
+// let res = 78
 // switch (res) {
 //     case 1: console.log('dushanba');
-//         break
+//        break
 //     case 2: console.log('seshanba');
 //         break
 //     case 3: console.log('chorshanba');
@@ -38,15 +36,87 @@ let res = 7
 // }
 
 
-// for (let index = 0; index < array.length; index++) {
+// for (let i = 0; index < array.length; index++) {
 
 
 // }
-res = 100
-for (i = 1; i <= res; i++) {
-    console.log(i);
-    if (i % 2 === 0) {
-        console.log(i);
-    }
 
+// array = [1,2,3,4,5,6,7] 
+// for (let i = 0; i < array.length; i++) {
+//     console.log(array[i]);
+// }
+
+
+
+// if (0) {
+//     console.log('havo issiq');
+// }
+// else if (res > 90) {
+//     console.log('malumot topildi ');
+// }
+// else {
+//     console.log('malumot topilmadi');
+// }
+
+
+// var res = 'xasan'
+// for (let i = 0; i <= 100; i+=1) {
+//     if (i % 2 == 1) {
+//         console.log(i);
+//     }
+// }
+
+// var res = !0 ? console.log('10.000 som'): console.log('bunday meva yoq');
+
+// if (1) {
+//     console.log('10.000 so`m');
+// } else if ('1') {
+//     console.log(`12.000 so'm`);
+// }
+// else if (null) {
+//     console.log(`20.000 so'm`);
+// }
+// else {
+//     console.log('unday meva y`oq');
+// }
+
+
+// let res = 1
+// switch (res) {
+//     case 1: console.log('dushanba');
+//         break 
+//     case 2: console.log('seshanba');
+//         break
+//     case 3: console.log('chorshanba');
+//         break
+//     case 4: console.log('payshanba');
+//         break
+//     case 5: console.log('juma');
+//         break
+//     case 6: console.log('shanba');
+//         break
+//     case 7: console.log('yakshanba');
+//         break
+//     default: console.log('malumot topilmadi ');
+//         break;
+// }
+
+
+// for (let i = 0; i < 100; i++) {
+
+
+// }
+// let i = 1
+// for (i; i < 100; i++) {
+//     if (i % 2 == 0 ) {
+//         console.log(i);
+
+//     }
+// }
+array = 'diyora'
+for (let i = 0; i < array.length; i++) {
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        
+    }
 }
