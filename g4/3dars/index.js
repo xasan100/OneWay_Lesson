@@ -113,11 +113,61 @@
 
 //     }
 // }
-array = 'diyora'
-for (let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array.length; j++) {
-        // console.log(array[j]);
-    }
-    console.log('------');
-    // console.log(array[i]);
+// array = 'diyora'
+// for (let i = 0; i < array.length; i++) {
+//     for (let j = 0; j < array.length; j++) {
+//         // console.log(array[j]);
+//     }
+//     console.log('------');
+//     // console.log(array[i]);
+// }
+
+
+const array = 'asadbek'
+
+
+// for (let i = 0; i < array.length; i++) {
+//     for (let g = 0; g < array.length; g++) {
+//         console.log(array[g],'in');
+//     }
+//     console.log(array[i],'external');
+// }
+
+
+// let i = 4
+
+// while (i < array.length) {
+//     console.log(array[i].toUpperCase());
+//     i++
+// }
+
+// do {
+//     console.log(array[i].toUpperCase());
+//     i++
+// }
+// while (i < array.length)
+
+// fuction  declaration experation arrow
+
+// function ActionOne() {
+//     console.log('harakat');
+// }
+
+// ActionOne()
+// ActionOne()
+// ActionOne()
+
+
+// const Action = function () {
+//     console.log('expretion fuction');
+// }
+
+let name = 'YuksaK Talim'
+// outer variable of fuction 
+const Arrow = () => {
+    name = 'Infinity'
+    // inner  variable 
+    console.log(name);
 }
+Arrow();
+console.log(name);
