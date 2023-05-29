@@ -115,8 +115,9 @@
 // }
 array = 'diyora'
 for (let i = 0; i < array.length; i++) {
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-        
+    for (let j = 0; j < array.length; j++) {
+        // console.log(array[j]);
     }
+    console.log('------');
+    // console.log(array[i]);
 }
