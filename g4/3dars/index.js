@@ -1,5 +1,5 @@
 // console.log(`${true+false}${false+false}${false+false}`);
-// var one =  1 ? console.log('judda ham issiq') : console.log('malumot topilmadi') ? console.log('hey guys') : console.log('topilmaddi');
+// var one = !1 ? console.log('judda ham issiq') : console.log('malumot topilmadi');
 
 
 // var one = 26
@@ -123,29 +123,45 @@
 // }
 
 
-const array = 'asadbek'
+// const array = 'diyora'
 
 
-// for (let i = 0; i < array.length; i++) {
-//     for (let g = 0; g < array.length; g++) {
-//         console.log(array[g],'in');
-//     }
-//     console.log(array[i],'external');
+for (let i = 0; i < 100; i++) {
+    // i % 2 == 0 ? console.log(i, 'juft son') : console.log( i,'tuq son');
+
+    // if (i % 2 == 0) {
+    //     console.log(i,'juft son');
+    // }
+    // else {
+    //     console.log(i,'toq son');
+    // }
+
+
+
+}
+
+let array = ['diyora', 'asadbek', 'xasan', 'abdulaziz']
+
+// i = 0
+// while (i < array.length) {
+//     console.log(array[i].toUperCase());
+//     i++
 // }
 
 
-// let i = 4
+let i = 4
 
-// while (i < array.length) {
-//     console.log(array[i].toUpperCase());
+// while (i) {
+//     console.log('hey');
 //     i++
+//     break
 // }
 
 // do {
-//     console.log(array[i].toUpperCase());
+//     console.log('hey');
 //     i++
 // }
-// while (i < array.length)
+// while (i < 0)
 
 // fuction  declaration experation arrow
 
@@ -162,12 +178,109 @@ const array = 'asadbek'
 //     console.log('expretion fuction');
 // }
 
-let name = 'YuksaK Talim'
+// fuction tugri name berish 
+// clean code 
+
+// let name = 'YuksaK Talim'
 // outer variable of fuction 
-const Arrow = () => {
-    name = 'Infinity'
-    // inner  variable 
-    console.log(name);
+// const Arrow = () => {
+//     name = 'Infinity'
+//     // inner  variable 
+//     // console.log(name);
+// }
+// Arrow();
+// console.log(name);
+
+
+
+function ActionOne() {
+    // console.log('harakat');
 }
-Arrow();
-console.log(name);
+// ActionOne()
+
+// let getUser = function (x, a, d) {
+//     return x
+// }
+// console.log(Action('asadbek', 'diyora', 'xasan'));
+
+
+// const Arrow = (fghjkl, b, a, d = 'malumot qushilmadi') => {
+//     return fghjkl
+// }
+
+
+// console.log(Arrow('asadbek', 2, 3, 4));;
+
+// console.log(b);
+var b = 1234
+
+// console.log(ActionOne());
+// console.log(ActionOne());
+// console.log(ActionOne());
+// console.log(ActionOne());
+
+// function ActionOne() {
+//     return 'harakat';
+// }
+
+
+// let getUser = function () {
+//     return 'experation fuction';
+// }
+// console.log(getUser());
+
+// const ArrowFunck = (sh, f, a, n, c = 'malumot qo`shilmadi') => {
+//     res = sh + f + a + n + c
+//     return res
+// }
+
+// console.log(ArrowFunck(1, 2, 3, 4, 5));
+
+// const functionArrow = (a, b, c, d = 'malumot qushilmadi') => {
+//     // res = a + b + c
+//     console.log(res = a - b - c);
+
+
+// }
+// console.log(functionArrow(4, 2, 1));
+
+// console.log(students.name, students.age, students.status);
+// console.log(students[67]);
+// console.log(students['age']);
+// console.log(students['muhammad ali']);
+
+// console.log(students.key);
+// console.log(students['key']);
+// console.log(students[key]);
+
+const students = [
+    {
+        id: 1,
+        name: 'Erkinjon',
+        lastname: 'Erkinjanov',
+        age: 15,
+        status: 'biznesman',
+        phone: 993456783,
+        mail: 'xasandev@mail.ru'
+    },
+    {
+        id: 2,
+        name: 'Erkinjon',
+        lastname: 'Erkinjanov',
+        age: 15,
+        status: 'biznesman',
+        phone: 993456783,
+        mail: 'xasandev@mail.ru'
+    },
+]
+// let key = 'status'
+students.key3 = "value3";
+// Object.freeze(students)
+delete students.key3
+console.log(students);
+
+
+
+
+
+
