@@ -236,13 +236,12 @@ var b = 1234
 
 // console.log(ArrowFunck(1, 2, 3, 4, 5));
 
-// const functionArrow = (a, b, c, d = 'malumot qushilmadi') => {
-//     // res = a + b + c
-//     console.log(res = a - b - c);
-
-
+// const functionArrow = (c, f, g) => {
+//     return f
 // }
-// console.log(functionArrow(4, 2, 1));
+// console.log(functionArrow('xasan', 'asadbek', { name: 'baxtiyor', age: 19 }));
+
+
 
 // console.log(students.name, students.age, students.status);
 // console.log(students[67]);
@@ -274,10 +273,10 @@ const students = [
     },
 ]
 // let key = 'status'
-students.key3 = "value3";
+// students.key3 = "value3";
 // Object.freeze(students)
-delete students.key3
-console.log(students);
+// delete students.key3
+// console.log(students);
 
 
 
