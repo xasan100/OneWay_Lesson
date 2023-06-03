@@ -252,34 +252,111 @@ var b = 1234
 // console.log(students['key']);
 // console.log(students[key]);
 
-const students = [
-    {
-        id: 1,
-        name: 'Erkinjon',
-        lastname: 'Erkinjanov',
-        age: 15,
-        status: 'biznesman',
-        phone: 993456783,
-        mail: 'xasandev@mail.ru'
-    },
-    {
-        id: 2,
-        name: 'Erkinjon',
-        lastname: 'Erkinjanov',
-        age: 15,
-        status: 'biznesman',
-        phone: 993456783,
-        mail: 'xasandev@mail.ru'
-    },
+
+
+
+
+
+
+
+const group = [{
+    id: 1,
+    name: 'asadbek',
+    age: 14,
+    status: 'student',
+    phone: 998975421708,
+    mail: 'asadbe_uzb@mail.ru',
+    100: 'nomer',
+    'baxtiyor asadbek': 'isim'
+},
+{
+    id: 2,
+    name: 'xasan',
+    age: 14,
+    status: 'student',
+    phone: 998975421708,
+    mail: 'asadbe_uzb@mail.ru',
+    100: 'nomer',
+    'baxtiyor asadbek': 'isim'
+},
 ]
-// let key = 'status'
-// students.key3 = "value3";
+// let key = 'mail'
+// group.key = "value3";
+delete group.name
+Object.freeze(group)
 // Object.freeze(students)
 // delete students.key3
 // console.log(students);
 
+// console.log(group);
+// console.log(group[key]);
+// console.log(group['phone']);
 
 
+// console.log(Object.keys(group),);
+// console.log(group['100']);
+// console.log(group['baxtiyor asadbek']);
 
 
+// let name = 'yuksak talim'
+// const user = {
+//     name,
+//     age: 1234,
+//     syhi() {
+//         console.log(this);
+//         console.log(user);
+//         // console.log(user.name);
+//         console.log(this.name);
+//     }
+// }
+
+// user.syhi();
+
+let name = 'yuksak talim'
+
+
+const one = {
+    name,
+    age: 21,
+    // sayHi:    () => {
+    //     console.log(one.name);
+    //     console.log(this.name);
+    // }
+}
+
+// delete one.name
+
+// one.sayHi();
+
+// obj1 = {}
+// obj2 = {}
+// obj3 =obj1
+// console.log(obj1 === obj2);
+// console.log(obj1 == obj2);
+// console.log(obj1 == obj3);
+
+const user = {
+    age: 14,
+    name: 'muhammad ali',
+    chilid: {
+        name: 'asadbek',
+        age: 15,
+        chilid: {
+            age: 15,
+            name: 'Bilolhon',
+            chilid: {
+                name: 'Murodjon',
+                age: 18,
+                chilid: {
+                    name: 'shoazim',
+                    age: 15,
+                    chilid: {
+                        name: 'erkinjon',
+                        age: 15,
+                    }
+                }
+            }
+        }
+    }
+}
 
