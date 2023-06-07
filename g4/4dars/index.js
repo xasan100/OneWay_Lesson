@@ -44,29 +44,24 @@ let key = 'age'
 
 // console.log(obj1 == obj3);
 
+// let name = 'shoazim'
 let data = {
-    name: 'xasan',
+    name: 'shoazim' ,
     age: 5,
-    chilid: {
-        name: 'asadbek',
-        age: 5,
-        chilid: {
-            age: 5,
-            name: 'xusan',
-            chilid: {
-                age: 10,
-                name: 'xursad'
-            }
-        }
-    },
 }
 
-let sum = 0
-// while (1) {
-//     if (data) sum += data.age
-//     else break
-//     data = data.chilid
-// }
-// console.log(sum);
+const {name:ghj} =data
+const one = [123, 0, 23, 10]
+console.log(one);
+
+// const { name: xasan, age } = data
+// console.log({...data,age:23});
+// console.log(data.name);
+// const arrey = ['olma', 'nok', 'behi']
+
+// const [o, n, b, c='malumot'] = arrey
+
+// console.log(c);
+
 
 
