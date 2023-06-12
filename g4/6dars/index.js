@@ -1,14 +1,14 @@
 // let company = {
 //     sales: [
-//         { name: "John", age: 10 },
-//         { name: "Alice", salary: 16 },
+//         { name: "John", salary: 1000 },
+//         { name: "Alice", salary: 1000 },
 //     ],
 //     development: {
 //         sites: [
-//             { name: "Peter", salary: 20 },
-//             { name: "Alex", salary: 1 },
+//             { name: "Peter", salary: 2000 },
+//             { name: "Alex", salary: 3000 },
 //         ],
-//         internals: [{ name: "Jack", salary: 1 }],
+//         internals: [{ name: "Jack", salary: 5000 }],
 //     },
 // };
 
@@ -25,6 +25,12 @@
 // }
 
 // console.log(count(company));
+
+
+// const max = [1234, 2, 3, 45454, 2, 32, 998, 1, 2, 3, 4, 5]
+
+// console.log(max.sort((a, b) => a - b).slice(-1), 'max');
+// console.log(max.sort((a, b) => a - b)[0], 'min');
 
 
 // const one = [
@@ -56,9 +62,9 @@ const deleteFunc = ['olma', 'nok', ' behi']
 //    console.log(...one,'name');
 
 
-function isBigEnough(value) {
-    return value >= 10;
-}
+// function isBigEnough(value) {
+//     return value >= 10;
+// }
 
-const filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
-console.log(filtered);
+// const filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+// console.log(filtered);
