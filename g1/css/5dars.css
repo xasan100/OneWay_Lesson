@@ -4,7 +4,7 @@
     grid-template-areas:
         "h h h "
         "m c r "
-        " m f f";
+        "m f f";
     gap: 10px;
     height: 70vh;
     background: palegreen;

@@ -76,7 +76,7 @@ b = arr.flat(Infinity).slice(-1)
 
 
 const test = [
- 
+
 
     , {
         name: 'aziz',
@@ -89,7 +89,7 @@ const test = [
 
 
 
-
+one(123)
 
 
 

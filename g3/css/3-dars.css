@@ -1,0 +1,31 @@
+
+
+a{
+    /* text-decoration: overline dotted; */
+    font-size: 23px;
+}
+p{
+    /* text-transform: lowercase; */
+    /* text-indent: 50px; */
+    /* letter-spacing: 30px; */
+   word-spacing: 10px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.box>h1{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+   text-shadow: -10px -10px 1px rgb(0, 26, 255);
+}

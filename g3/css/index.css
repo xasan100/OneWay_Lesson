@@ -1,0 +1,109 @@
+/* .bloc1 {
+    background: red;
+    color: yellow;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+}
+
+.span {
+    background: blue;
+    color: brown;
+    display: block;
+} */
+/* 
+.box1{
+    background: red;
+    height: 20vh;
+    visibility: hidden;
+}
+
+.box2{
+    background: blue;
+    height: 20vh;
+    display: none;
+} */
+
+/* img{
+    float: right;
+} */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* .Container {
+    background-image: url(../../../g2/haksenuz//assest/img/homePageback.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background: red;
+    height: 100px;
+    padding: 20px 0px 0px 0px;
+}
+
+.nav-logo {
+    display: inline;
+    margin-left: 200px;
+}
+
+.nav-logo>h1 {
+    display: inline;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-item {
+    display: inline;
+    margin-left: 340px;
+}
+
+.nav-item>a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.nav-btn {
+    display: inline;
+    margin-left: 300px;
+}
+
+.nav-btn>button {
+    width: 100px;
+    height: 40px;
+    background: aqua;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+} */
+
+.box1 {
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 59px;
+    margin-right: 50px; */
+    /* margin: 20px; */
+    background: red;
+    height: 400px;
+}
+
+.box2 {
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 59px;
+    padding-right: 50px; */
+    /* padding: 100px 200px ; */
+    padding: 40px;
+    width: 400px;
+    height: 50vh;
+    background: blue
+}

@@ -33,16 +33,21 @@ function Person(firstName, lastName) {
 
 let person = Person("John", { name: 'xasan', age: 21, });
 
-// console.log(person.lastName);
-// let data = {
+// const HeyFunc = () => {
+// }
+
+// let one = {
 //     name: 'xasan',
 //     age: 23,
+//     HeyFunc: function () {
+//         console.log(this.age);
+//         console.log(one.age);
+//     },
 //     status: 'student',
 //     email: 'xasandev@mail.ru'
 // }
+// one.HeyFunc();
 
-const obj = ['olma', 'nok', 'behi']
-const [a, b, c] = obj
 
 // let { name: chenge, age, status, email } = data
 
@@ -51,31 +56,49 @@ const [a, b, c] = obj
 
 let data = {
     name: 'asadbek',
-    age: 14,
-    chilid: {
-        name: 'diyora',
-        age: 17,
-        chilid: {
-            name: 'baxtiyor',
-            age: 15,
-            chilid: {
-                name: 'xasan',
-                age: 22
-            }
-        }
-    }
+    age: 5,
 }
-// res = 0
-// while (true) {
-//     if (data)  res += data.age;
+let { name, fps } = data
+// console.log(fps);
+
+// let age = 123
+
+let num = 0
+for (let i = 0; data;) {
+    data ? num += data.age : false
+    data = data.chilid
+}
+
+
+// console.log(num);
+
+
+
+// let sum = 0
+// while (1) {
+//     if (data) {
+//         sum += data.age;
+//     }
 //     else break
 //     data = data.chilid
 // }
-// console.log(res);
+// console.log(sum);
 
-sum = 0
-for (let i = 0; data; i++) {
-    data.age ? sum += data.age : false
-    data = data.chilid
+const Count = () => {
+
 }
-console.log(sum);
+Count(10)
+
+
+
+const one = [9, 8, 11, 12, 1, 13, 21, 123, 0, 2345, 234]
+// console.log(one.sort((a, b) => a - b)); 
+
+
+
+
+setTimeout(() => {
+    console.log('hey guys1');
+}, '0')
+console.log('h ey guys');
+

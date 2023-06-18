@@ -5,11 +5,6 @@
 //     }
 //     console.log(array[i], 'out');
 // }
-
-
-
-
-
 // let i = 0;
 // let b = 'xasan'
 
@@ -23,14 +18,14 @@
 // } while (0);
 
 
-const studendts = {
-    name: 'xasan',
-    status: 'students',
-    age: 18,
-    12: '998991006010'
-}
+// const studendts = {
+//     name: 'xasan',
+//     status: 'students',
+//     age: 18,
+//     12: '998991006010'
+// }
 
-let key = 'age'
+// let key = 'age'
 
 // console.log(studendts[age]);
 // console.log(studendts.key); 
@@ -45,16 +40,13 @@ let key = 'age'
 // console.log(obj1 == obj3);
 
 // let name = 'shoazim'
-let data = {
-    name: 'shoazim' ,
-    age: 5,
-}
+// let data = {
+//     name: 'shoazim' ,
+//     age: 5,
+// }
 
-const {name:ghj} =data
-const one = [123, 0, 23, 10]
-console.log(one);
+// const {name:ghj} =data
 
-// const { name: xasan, age } = data
 // console.log({...data,age:23});
 // console.log(data.name);
 // const arrey = ['olma', 'nok', 'behi']

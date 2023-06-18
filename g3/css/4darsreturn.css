@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px 100px;
+}
+
+.container>div {
+    height: 60px;
+    background: rgba(0, 0, 255, 0.674);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navabr1 {
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+
+}
+
+.navabr1>a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+/* navbar 2 */
+.navabr2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.navabr2>a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+/* navbar3 */
+
+.navabr3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.navabr3>a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+/* navbar 4 */
+
+.navabr4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navabr4>a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+/* navbar 5 */
+.navabr5 {
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.navabr5>a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+
+}
