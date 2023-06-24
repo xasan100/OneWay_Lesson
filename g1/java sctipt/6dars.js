@@ -12,18 +12,43 @@
 // Count(10)
 
 
-
-
-
 const Data = (array) => {
-    let a = array.join().split('').filter((value) => {
-        value
-
-    }
-    )
-    return a
+    // b = array.join('').split('').filter((value) => value.toLowerCase() === 'a')
+    // return b
+    // return array.join('').match(/[0-9]/gi)
 }
-console.log(Data(['asa34dbek', 'muh456mmad nur', 'yos546ihon', 'xAsAn']));
+// console.log(Data([false, 'muh45a6mmad nur', 'yoas546ihon', 'xAsAn']));
 
 // a harflar chiqarich katta kichik
 //  number larni chiqarish va bir biriga qushish
+// const max = [12, 3, 4, 5, 4, 556, 57, 67, 687]
+// const min = [12, 3, 4, 5, 4, 556, 57, 67, 687]
+
+
+const obj = [
+    {
+        name: 'yosixon',
+        age: 15,
+        status: 'student'
+    }
+    , {
+        name: 'yosixon',
+        age: 15,
+        status: 'student'
+    }
+    , {
+        name: 'yosixon',
+        age: 15,
+        status: 'student'
+    }
+
+]
+const userData = (user) => {
+    b = user.map((value) => value.age)
+    return b
+}
+
+console.log(userData(obj));
+
+
+
